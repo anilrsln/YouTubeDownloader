@@ -1,6 +1,4 @@
-﻿using System.Drawing;
-
-namespace YouTubeDownloader
+﻿namespace YouTubeDownloader
 {
     partial class Form1
     {

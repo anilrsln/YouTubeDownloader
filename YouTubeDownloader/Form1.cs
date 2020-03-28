@@ -1,15 +1,9 @@
-﻿using Excel = Microsoft.Office.Interop.Excel;
+﻿using MediaToolkit;
+using MediaToolkit.Model;
 using System;
 using System.IO;
 using System.Windows.Forms;
 using VideoLibrary;
-using System.Data.OleDb;
-using System.Data;
-using System.Runtime.InteropServices;
-using IronXL;
-using System.Linq;
-using MediaToolkit.Model;
-using MediaToolkit;
 
 namespace YouTubeDownloader
 {
