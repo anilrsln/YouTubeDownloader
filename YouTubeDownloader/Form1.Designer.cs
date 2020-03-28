@@ -71,7 +71,6 @@ namespace YouTubeDownloader
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(441, 20);
             this.textBox1.TabIndex = 4;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
             // 
             // label2
             // 
@@ -81,7 +80,6 @@ namespace YouTubeDownloader
             this.label2.Size = new System.Drawing.Size(156, 13);
             this.label2.TabIndex = 5;
             this.label2.Text = "Copyright © 2020 by Anıl Arslan";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 

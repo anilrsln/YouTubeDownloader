@@ -60,31 +60,5 @@ namespace YouTubeDownloader
             File.Delete(@"C:\YouTube\" + video.FullName);
             MessageBox.Show("Ses dosyasını başarıyla indirdiniz.", "TEBRİKLER");
         }
-        
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
