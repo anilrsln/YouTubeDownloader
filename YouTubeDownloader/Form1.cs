@@ -48,7 +48,8 @@ namespace YouTubeDownloader
             File.WriteAllBytes(@"C:\YouTube\" + video.FullName, video.GetBytes());
 
             var inputFile = new MediaFile { Filename = @"C:\YouTube\" + video.FullName };
-            var outputFile = new MediaFile { Filename = $"{@"C:\YouTube\" + video.FullName}.mp3" };
+            var videoName = video.FullName.Replace(" - YouTube.mp4", string.Empty);
+            var outputFile = new MediaFile { Filename = $"{@"C:\YouTube\" + videoName}.mp3" };
 
             using (var engine = new Engine())
             {
